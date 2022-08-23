@@ -9,7 +9,7 @@ const about = {
   name: 'Colin Meinecke',
   role: 'Full Stack Software Engineer',
   description:
-    "I'm currently seeking to join and learn from a team that shares my values. As an experienced performing musician and music educator, I am used to frequent collaboration with colleagues, guiding and contributing to teams of all sizes, and working within tightly scheduled timelines while maintaining meticulous attention to detail and having fun. I hope to find those qualities in a position in my new career!",
+    "I'm currently seeking to join and learn from a team that shares my values. As an experienced performing musician and music educator, I am used to frequent collaboration with colleagues, guiding and contributing to teams of all sizes, and working within tightly scheduled timelines while maintaining meticulous attention to detail and having fun. I hope to find those qualities in a position in my new career. Let's chat!",
   resume:
     'https://drive.google.com/file/d/1IvvJc1TZMs0TjW4Jh48725Xj6ZmxtdN1/view?usp=sharing',
   social: {
