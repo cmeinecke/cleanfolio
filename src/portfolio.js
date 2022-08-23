@@ -1,19 +1,20 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'www.colinmeinecke.com',
+  title: 'CM.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Colin Meinecke',
+  role: 'Full Stack Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "I'm currently seeking to join and learn from a team that shares my values. As an experienced performing musician and music educator, I am used to frequent collaboration with colleagues, guiding and contributing to teams of all sizes, and working within tightly scheduled timelines while maintaining meticulous attention to detail and having fun. I hope to find those qualities in a position in my new career!",
+  resume:
+    'https://drive.google.com/file/d/1IvvJc1TZMs0TjW4Jh48725Xj6ZmxtdN1/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/colin-meinecke',
+    github: 'https://github.com/cmeinecke',
   },
 }
 
@@ -21,28 +22,25 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Exercise Tracker',
+    description: 'A simple full stack application. Authentication coming soon!',
+    stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose ODM'],
+    sourceCode: 'https://github.com/cmeinecke/MERN-exercise-tracker',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Campsite Review API',
+    description: 'Back end application with authentication.',
+    stack: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose ODM'],
+    sourceCode: 'https://github.com/cmeinecke/express-generator',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'React Native To-Do',
+    description: 'Classic to-do app built for iOS and Android.',
+    stack: ['React Native', 'Expo', 'Android Studio', 'Xcode'],
+    sourceCode: 'https://github.com/cmeinecke/react-native-todo',
+    // livePreview: 'https://github.com',
   },
 ]
 
@@ -52,20 +50,21 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'Python',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'React Native',
+  'Express.js',
+  'Node.js',
+  'MongoDB',
+  'PostgreSQL',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'cmeinecke.com',
 }
 
 export { header, about, projects, skills, contact }
